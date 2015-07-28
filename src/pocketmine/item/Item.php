@@ -724,7 +724,7 @@ class Item{
 		self::addCreativeItem(Item::get(Item::CARPET, 9));
 		self::addCreativeItem(Item::get(Item::CARPET, 8));
 
-		//Tools
+//Tools
 		//TODO self::addCreativeItem(Item::get(Item::RAILS, 0));
 		//TODO self::addCreativeItem(Item::get(Item::POWERED_RAILS, 0));
 		self::addCreativeItem(Item::get(Item::TORCH, 0));
@@ -733,16 +733,41 @@ class Item{
 		self::addCreativeItem(Item::get(Item::BUCKET, 8));
 		self::addCreativeItem(Item::get(Item::BUCKET, 10));
 		self::addCreativeItem(Item::get(Item::TNT, 0));
-		self::addCreativeItem(Item::get(Item::IRON_HOE, 0));
-		self::addCreativeItem(Item::get(Item::IRON_SHOVEL, 0));
-		self::addCreativeItem(Item::get(Item::IRON_SWORD, 0));
-		self::addCreativeItem(Item::get(Item::BOW, 0));
-		self::addCreativeItem(Item::get(Item::SHEARS, 0));
+		self::addCreativeItem(Item::get(Item::BOW, 0));	
 		self::addCreativeItem(Item::get(Item::FLINT_AND_STEEL, 0));
+		self::addCreativeItem(Item::get(Item::SHEARS, 0));
 		self::addCreativeItem(Item::get(Item::CLOCK, 0));
 		self::addCreativeItem(Item::get(Item::COMPASS, 0));
 		self::addCreativeItem(Item::get(Item::MINECART, 0));
 		self::addCreativeItem(Item::get(Item::SPAWN_EGG, Villager::NETWORK_ID));
+		self::addCreativeItem(Item::get(Item::SPAWN_EGG, Zombie::NETWORK_ID));
+		self::addCreativeItem(Item::get(Item::SPAWN_EGG, Squid::NETWORK_ID));
+		self::addCreativeItem(Item::get(Item::IRON_SWORD, 0));
+		self::addCreativeItem(Item::get(Item::IRON_HOE, 0));
+		self::addCreativeItem(Item::get(Item::IRON_SHOVEL, 0));
+		self::addCreativeItem(Item::get(Item::IRON_PICKAXE, 0));
+		self::addCreativeItem(Item::get(Item::IRON_AXE, 0));
+		self::addCreativeItem(Item::get(Item::DIAMOND_SWORD, 0));
+		self::addCreativeItem(Item::get(Item::DIAMOND_HOE, 0));
+		self::addCreativeItem(Item::get(Item::DIAMOND_SHOVEL, 0));
+		self::addCreativeItem(Item::get(Item::DIAMOND_PICKAXE, 0));
+		self::addCreativeItem(Item::get(Item::DIAMOND_AXE, 0));
+		self::addCreativeItem(Item::get(Item::GOLD_SWORD, 0));
+		self::addCreativeItem(Item::get(Item::GOLD_HOE, 0));
+		self::addCreativeItem(Item::get(Item::GOLD_SHOVEL, 0));
+		self::addCreativeItem(Item::get(Item::GOLD_PICKAXE, 0));
+		self::addCreativeItem(Item::get(Item::GOLD_AXE, 0));
+		self::addCreativeItem(Item::get(Item::STONE_SWORD, 0));
+		self::addCreativeItem(Item::get(Item::STONE_HOE, 0));
+		self::addCreativeItem(Item::get(Item::STONE_SHOVEL, 0));
+		self::addCreativeItem(Item::get(Item::STONE_PICKAXE, 0));
+		self::addCreativeItem(Item::get(Item::STONE_AXE, 0));
+		self::addCreativeItem(Item::get(Item::WOODEN_SWORD, 0));
+		self::addCreativeItem(Item::get(Item::WOODEN_HOE, 0));
+		self::addCreativeItem(Item::get(Item::WOODEN_SHOVEL, 0));
+		self::addCreativeItem(Item::get(Item::WOODEN_PICKAXE, 0));
+		self::addCreativeItem(Item::get(Item::WOODEN_AXE, 0));
+		self::addCreativeItem(Item::get(Item::SNOWBALL));
 		//self::addCreativeItem(Item::get(Item::SPAWN_EGG, 10)); //Chicken
 		//self::addCreativeItem(Item::get(Item::SPAWN_EGG, 11)); //Cow
 		//self::addCreativeItem(Item::get(Item::SPAWN_EGG, 12)); //Pig
@@ -754,12 +779,7 @@ class Item{
 		//TODO: Silverfish
 		//TODO: Skeleton
 		//TODO: Slime
-		self::addCreativeItem(Item::get(Item::SPAWN_EGG, Zombie::NETWORK_ID));
 		//TODO: PigZombie
-		self::addCreativeItem(Item::get(Item::SPAWN_EGG, Squid::NETWORK_ID));
-
-		self::addCreativeItem(Item::get(Item::SNOWBALL));
-
 
 		//Seeds
 		self::addCreativeItem(Item::get(Item::SUGARCANE, 0));
